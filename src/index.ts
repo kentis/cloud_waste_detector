@@ -6,7 +6,7 @@ const program = new Command();
 program
   .name('cloudopt')
   .description('CLI tool for cloud resource optimization')
-  .version('0.1.0')
+  .version('0.0.1')
   .option('-c, --config <file>', 'Specify a custom configuration file')
   .option('-v, --verbose', 'Enable verbose logging');
 
